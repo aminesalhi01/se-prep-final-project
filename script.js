@@ -33,3 +33,8 @@ contactButton.addEventListener("click", function(){
         contactSection.classList.remove("hidden-contact");
     }
 })
+let contactSubmit = document.querySelector(".contact-btn");
+contactSubmit.addEventListener("click", function(){
+    let url = "./index2.html";
+    window.open(url);
+})
