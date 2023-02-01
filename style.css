@@ -120,3 +120,118 @@ a:hover{
 span{
     text-decoration: underline;
 }
+
+/**********CLASS SELECTORS**********/
+
+
+.top-container{
+    background-color: #eaf6f6;
+    padding-top: 100px;
+    position: relative;
+
+}
+
+.cloud-1{
+    position: absolute;
+    right:300px;
+    top: 50px;
+    
+}
+
+
+.cloud-2{
+    position: absolute;
+    left: 300px;
+    bottom:300px;
+
+}
+
+.skill-row{
+    margin:100px auto;
+    text-align: left;
+    width: 50%;
+    
+}
+
+.dev-icon{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.baker-icon{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.contact-me{
+    margin-bottom: 80px;
+}
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+
+
+.middle-container{
+margin-top: 40px;
+margin-bottom:40px;
+}
+.bottom-container{
+    background-color:#66bfbf;
+    margin: 0;
+    padding: 50px 0 20px;
+}
+.foot-link{
+    color:#11999E;
+}
+.foot-p{
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding-top:20px;
+    padding-bottom: 5rem;
+}
+.contact-message{
+    width:40%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+.hello-message{
+    width: 40%;
+    margin: auto;
+}
+
+/******** On click *********/
+
+.hide-hello, .hidden-skills, .hidden-contact{
+    height: 0;
+    overflow: hidden;
+}
+
+.click-btn-hello, .click-btn-skills, .click-btn-contact{
+    cursor: pointer;
+}
+
