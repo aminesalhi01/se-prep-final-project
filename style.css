@@ -1,0 +1,127 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    color: #151515;
+}
+
+/***********  header  ************/
+
+header{
+    position: relative
+    padding: 10px 50px;
+    height: 60px;
+}
+nav label{
+    font-size: 45px;
+    display: inline-block;
+    width: 100px;
+}
+nav ul{
+    display: inline-block;
+    float: right;
+    text-decoration: none;
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*********** Home *************/
+
+.grid-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.img-1{
+    width: 100%;
+
+}
+.img-1 img{
+    max-width: 100%;
+}
+.introduction{
+    background-color: #f1e1d6;
+    padding: 50px 40px;
+    justify-items: center       ;
+}
+.introduction p{
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.btn {
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    font-family: Arial;
+    color: #000000;
+    font-size: 20px;
+    background: #f1e1d6;
+    padding: 10px 20px 10px 20px;
+    border: solid #000000 4px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #e3ae56;
+    text-decoration: none;
+    cursor: pointer;
+    animation-delay: 1.4s;
+  }
+
+/*********** About me *************/
+
+.grid-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.se{
+    grid-column: 1 / span 2;
+    line-height: 1.5;
+    line-gap-override: 2px;
+}
+.se, .skills{
+    padding: 20px;
+}
+.img-2{
+    width: 100%;
+}
+.img-2 img{
+    max-width: 100%;
+}
+.my-skills{
+    text-align: center;
+    background-color: #e3ae56;
+    color: white;
+}
+.my-skills ul{
+    color: black;
+    font-weight: bold;
+}
+.skill-1{
+    background-color: #e3ae56;
+    text-align: center;
+    color: white;
+}
+.skill-2{
+    background-color: #e8724b;
+    color: white;
+    text-align: center;
+}
+.skill-3{
+    background-color: #151515;
+    color: white;
+    text-align: center;
+}
+.skill-4{
+    background-color: white;
+    text-align: center;
+}
+
+
+/*********** experiences *************/
+
+/*********** Testimonials *************/
+
+/*********** Contact *************/
